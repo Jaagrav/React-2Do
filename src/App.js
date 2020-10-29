@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="container">
       <div className="headerBand"></div>
-      <div className="header">2Do</div>
+      <div className="header">2DO</div>
       <div ref={inputField} className="inputField">
         <input ref={inputRef} type="text" placeholder="Add Todo..." onKeyPress={e => {
           if (e.key == "Enter") addTodo();

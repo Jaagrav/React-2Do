@@ -8,8 +8,8 @@
 }
 
 body {
-  /* background-color: #16212B; */
-  background-color: rgb(220, 255, 234);
+  background-color: #16212B;
+  /* background-color: rgb(220, 255, 234); */
 }
 
 body::-webkit-scrollbar {
@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 .inputField {
   position: fixed;
   margin: auto;
-  right: 0;left: 0; 
+  right: 0;left: 0;
   top: 80px;
   border-radius: 7px;
   width: calc(100% - 50px);
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb {
 .todoBlock .tickBtn{
   position: absolute;
   margin: auto;
-  top: 0;bottom: 0;left: 15px; 
+  top: 0;bottom: 0;left: 15px;
 }
 
 .todoBlock .deleteBtn {
